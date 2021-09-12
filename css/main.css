@@ -1,0 +1,50 @@
+body{ 
+    background: linear-gradient(to right, rgb(171, 243, 215), rgb(152, 236, 241) , rgb(249, 233, 252));
+}
+.card { 
+    background-color: rgba(0 , 0 , 0 , 0.2);
+    color: white;
+    font-weight: bold;
+    margin-top: 90px;
+}
+h1{ 
+    font-size: 90px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+label{ 
+    font-size: 25px;
+    color: black;
+}
+@media (max-width:600px){
+    h1 {
+      font-size: 40px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .modal-content { 
+        width: 75%;
+        margin: auto;
+        margin-top: 100px;
+
+    }
+    
+}
+.none { 
+    display: none;
+}
+.block { 
+    display: block;
+}
+.check { 
+    background-color: gray;
+    text-decoration: line-through;
+}
+#showModel { 
+    margin-top: 200px;
+}
+.modal-content { 
+    margin-top: 150px;
+    border-radius: 5%;
+    background-color: rgb(92, 92, 92);
+
+}
